@@ -1,0 +1,16 @@
+{
+  "name": "authnodecoderealm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker:up": "docker-compose up -d",
+    "docker:stop": "docker-compose stop",
+    "docker:down": "docker-compose down",
+    "postup": "npm run dev",
+    "dev": "npm run dev --prefix api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
