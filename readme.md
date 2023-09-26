@@ -1,5 +1,3 @@
-docker exec -it authnodecoderealm-cache-1 redis-cli -a secret
-
 # Express Auth Server with Node.js, Redis and MongoDB
 
 This is a simple authentication server API built with Node.js, Express, and Redis and MongoDB. Auth is based on sessions and cookies. It uses sessions for authentication and stores session data in Redis. It uses MongoDB to store user data. It also uses Docker to run Redis and MongoDB.
